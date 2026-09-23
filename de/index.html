@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zahnärzte am Maschpark | Familien- &amp; Kosmetische Zahnheilkunde in Hannover</title>
+<meta name="description" content="Moderne, sanfte Zahnmedizin in Hannover. Null Vorurteile, Boutique-Komfort und Online-Terminbuchung in 60 Sekunden.">
+<script>(function(){try{if(localStorage.getItem('lang')==='en')location.replace('../')}catch(e){}})();</script>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@500,700,800&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="images/hero-doctor-patient.webp" type="image/webp" fetchpriority="high">
+<style>
+  /* ==========================================================================
+     TasteSkill + UI/UX Pro Max Architecture (German Edition)
+     Theme: Warm Medical Teal, Crisp Porcelain & Calming Sage
+     Mood: Welcoming, Happy, Gentle & Zero-Intimidation
+     ========================================================================== */
+  :root{
+    --bg:#fbfcfa;
+    --tint:#eef5f1;
+    --card:#ffffff;
+    --ink:#13231e;
+    --ink-soft:#52645c;
+    --line:#dfe7e2;
+    --accent:#0f766e;
+    --accent-deep:#0b5a54;
+    --accent-light:#e6f4f1;
+    --accent-glow:rgba(15,118,110,0.18);
+    --dark:#0f211c;
+    --dark-soft:#9bb9ad;
+    --star:#eab308;
+    --warm-badge:#fffbeb;
+    --warm-badge-border:#fef3c7;
+    --warm-badge-text:#92400e;
+    --display:'Cabinet Grotesk',-apple-system,BlinkMacSystemFont,sans-serif;
+    --sans:'Satoshi',-apple-system,BlinkMacSystemFont,sans-serif;
+    --ease-out:cubic-bezier(0.16,1,0.3,1);
+    --ease-spring:cubic-bezier(0.34,1.4,0.64,1);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  html,body{overflow-x:hidden;width:100%}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+  img,picture,svg,video{max-width:100%}
+  ::selection{background:var(--accent);color:#fff}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 32px}
+  a{color:inherit;text-decoration:none}
+
+  /* ---------- header ---------- */
+  header{position:sticky;top:0;background:rgba(251,252,250,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);z-index:50}
+  .nav{display:flex;justify-content:space-between;align-items:center;height:74px}
+  .logo{font-family:var(--display);font-weight:800;font-size:1.32rem;letter-spacing:-.025em;display:flex;align-items:center;gap:3px}
+  .logo span{color:var(--accent)}
+  .nav nav{display:flex;gap:34px;font-size:.94rem;font-weight:500;color:var(--ink-soft)}
+  .nav nav a{transition:color .18s ease}
+  .nav nav a:hover{color:var(--ink)}
+
+  /* ---------- haptic buttons ---------- */
+  .btn{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:#fff;font-family:var(--sans);font-weight:700;font-size:.96rem;padding:12px 24px;border-radius:99px;transition:transform .18s var(--ease-spring),background .2s,box-shadow .2s;white-space:nowrap;cursor:pointer;border:none;box-shadow:0 8px 20px -6px var(--accent-glow)}
+  .btn .arrow-icon{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:rgba(255,255,255,.2);margin-left:10px;transition:transform .22s var(--ease-spring)}
+  .btn:hover{background:var(--accent-deep);transform:translateY(-1px);box-shadow:0 14px 28px -8px rgba(15,118,110,.35)}
+  .btn:hover .arrow-icon{transform:translateX(3px)}
+  .btn:active{transform:scale(.98) translateY(1px)}
+  .btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line);box-shadow:none}
+  .btn.ghost:hover{border-color:var(--ink);background:rgba(21,36,32,.03)}
+  .btn.sm{padding:9px 18px;font-size:.88rem}
+  .lang{font-weight:700;font-size:.82rem;border:1.5px solid var(--line);border-radius:99px;padding:8px 16px;transition:.18s;white-space:nowrap}
+  .lang:hover{border-color:var(--accent);color:var(--accent)}
+
+  /* ---------- full-cover hero section ---------- */
+  .hero-section{position:relative;background:#f6f9f7;overflow:hidden;padding:0!important;margin:0!important}
+  .hero-cover{position:relative;min-height:680px;display:flex;align-items:center;overflow:hidden;background:#ecefe8}
+  .hero-bg-picture{position:absolute;top:0;left:0;width:100%;height:100%;display:block}
+  .hero-bg-img{width:100%;height:100%;object-fit:cover;object-position:72% center;display:block}
+  .hero-scrim{position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,0.18) 0%,rgba(255,255,255,0.06) 45%,transparent 65%);pointer-events:none}
+  .hero-wrap{position:relative;z-index:2;width:100%;padding-top:48px;padding-bottom:48px}
+  .hero-content{max-width:580px;background:rgba(255,255,255,0.88);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,0.95);border-radius:28px;padding:44px 44px;box-shadow:0 24px 60px -16px rgba(18,38,32,0.14),0 4px 18px rgba(18,38,32,0.04)}
+
+  /* Floating trust cards over hero photo */
+  .hero-float-pill{position:absolute;z-index:4;display:flex;align-items:center;gap:12px;background:rgba(255,255,255,0.94);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(223,231,226,0.95);border-radius:18px;padding:12px 18px;box-shadow:0 18px 38px -10px rgba(19,35,30,0.15);transition:transform .24s var(--ease-spring),box-shadow .24s;pointer-events:auto}
+  .hero-float-pill:hover{transform:translateY(-3px);box-shadow:0 24px 48px -12px rgba(15,118,110,0.22);border-color:var(--accent)}
+  .hero-float-pill b{display:block;font-size:.88rem;color:var(--ink);font-family:var(--display);font-weight:700;line-height:1.2}
+  .hero-float-pill span{display:block;font-size:.74rem;color:var(--ink-soft);margin-top:2px;font-weight:500}
+  .float-icon{width:36px;height:36px;border-radius:12px;background:var(--accent-light);display:flex;align-items:center;justify-content:center;font-size:1.15rem;flex:none}
+  .float-avatar{width:38px;height:38px;border-radius:50%;overflow:hidden;flex:none;border:2px solid var(--accent);box-shadow:0 2px 8px rgba(15,118,110,0.15)}
+  .float-avatar img{width:100%;height:100%;object-fit:cover;display:block}
+  .pill-top{top:36px;right:48px}
+  .pill-bottom{bottom:36px;right:56px}
+  @media(max-width:1180px){
+    .pill-top{top:24px;right:20px;padding:10px 14px}
+    .pill-bottom{bottom:24px;right:20px;padding:10px 14px}
+  }
+  @media(max-width:980px){
+    .hero-float-pill{display:none}
+  }
+
+  .happy-badge{display:inline-flex;align-items:center;gap:8px;background:var(--warm-badge);border:1px solid var(--warm-badge-border);color:var(--warm-badge-text);font-size:.76rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 14px;border-radius:99px;margin-bottom:20px}
+  .happy-badge .smile-icon{font-size:.9rem}
+  
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(2.5rem,4.2vw,3.8rem);line-height:1.06;letter-spacing:-.03em}
+  h1 em{font-style:normal;color:var(--accent)}
+  .hero-content .sub{margin-top:22px;color:var(--ink-soft);font-size:1.08rem;line-height:1.62}
+  .hero-content .sub b{color:var(--ink);font-weight:700}
+  .hero-content .cta{margin-top:34px;display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+  .hero-content .call{font-size:.95rem;font-weight:600;color:var(--ink-soft);display:inline-flex;align-items:center;gap:6px}
+  .hero-content .call a{color:var(--ink);font-weight:700;text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--accent);transition:color .15s}
+  .hero-content .call a:hover{color:var(--accent)}
+
+  .hero-proof{margin-top:28px;display:flex;align-items:center;gap:12px;font-size:.88rem;color:var(--ink-soft)}
+  .stars-svg{display:inline-flex;gap:3px;color:var(--star)}
+  .stars-svg svg{width:16px;height:16px;fill:currentColor}
+  .hero-proof b{color:var(--ink);font-weight:700}
+
+  /* ---------- facts bar (full-bleed high-trust proof) ---------- */
+  .facts-bar{width:100%;background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);position:relative;z-index:10}
+  .facts{display:grid;grid-template-columns:repeat(4,1fr);align-items:stretch}
+  .fact{padding:26px 28px;display:flex;flex-direction:column;justify-content:center;transition:background .2s ease}
+  .fact:first-child{padding-left:0}
+  .fact:last-child{padding-right:0}
+  .fact+.fact{border-left:1px solid var(--line)}
+  .fact-head{display:flex;align-items:baseline}
+  .fact b{font-family:var(--display);font-weight:800;font-size:clamp(1.75rem,2.2vw,2.05rem);letter-spacing:-.025em;font-variant-numeric:tabular-nums;color:var(--ink);line-height:1.1;display:inline-flex;align-items:baseline;white-space:nowrap}
+  .fact b .star-glyph{color:var(--star);font-size:.88em;margin-left:3px}
+  .fact span{font-size:.76rem;font-weight:700;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.12em;margin-top:4px;display:block}
+
+  /* ---------- sections & headings ---------- */
+  section{padding:100px 0}
+  .sec-kicker{font-size:.74rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
+  h2{font-family:var(--display);font-weight:800;font-size:clamp(2.1rem,3.6vw,2.9rem);letter-spacing:-.03em;line-height:1.08;margin-bottom:16px;max-width:28ch}
+  .sec-head p{color:var(--ink-soft);max-width:54ch;font-size:1.06rem;line-height:1.6}
+  .center{margin:0 auto 52px;text-align:center}
+  .center h2,.center p{margin-left:auto;margin-right:auto}
+
+  /* ---------- services (direct 1-click booking connection) ---------- */
+  .service-list{max-width:1020px;margin:0 auto}
+  .service{display:grid;grid-template-columns:54px 1fr auto auto;gap:28px;align-items:center;padding:28px 20px;border-top:1px solid var(--line);border-radius:16px;transition:background .2s,transform .2s}
+  .service:hover{background:rgba(238,245,241,.6);transform:translateX(4px)}
+  .service:last-of-type{border-bottom:1px solid var(--line)}
+  .num{font-family:var(--display);font-weight:600;font-size:1.15rem;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+  .service h3{font-family:var(--display);font-weight:700;font-size:1.34rem;letter-spacing:-.02em;margin-bottom:4px}
+  .service p{color:var(--ink-soft);font-size:.96rem;max-width:52ch;line-height:1.5}
+  .price{font-family:var(--display);font-weight:800;font-size:1.4rem;white-space:nowrap;display:flex;flex-direction:column;align-items:flex-end}
+  .price small{display:block;font-family:var(--sans);font-size:.72rem;font-weight:700;color:var(--ink-soft);letter-spacing:.12em;text-transform:uppercase;margin-top:2px}
+  .service-action{display:flex;align-items:center}
+  .book-trigger{border:1.5px solid var(--line);background:#fff;color:var(--accent-deep);font-family:var(--sans);font-weight:700;font-size:.84rem;padding:9px 18px;border-radius:99px;cursor:pointer;transition:.15s;white-space:nowrap}
+  .book-trigger:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+  /* ---------- doctors team section ---------- */
+  .doctors-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:24px;align-items:stretch}
+  .doctor-card{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 8px 24px -10px rgba(21,36,32,.06);transition:transform .2s var(--ease-spring),box-shadow .2s,border-color .2s}
+  .doctor-card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 22px 44px -16px rgba(15,118,110,.16)}
+  .doctor-media{position:relative;width:100%;height:320px;overflow:hidden;background:#f0f4f2}
+  .doctor-media picture, .doctor-media img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+  .doctor-media img{transition:transform .35s ease}
+  .doctor-card:hover .doctor-media img{transform:scale(1.03)}
+  .doctor-info{padding:26px 24px;display:flex;flex-direction:column;flex:1}
+  .doctor-badge{display:inline-block;font-size:.74rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent-deep);background:var(--accent-light);padding:4px 10px;border-radius:99px;margin-bottom:12px;width:fit-content}
+  .doctor-name{font-family:var(--display);font-weight:800;font-size:1.26rem;letter-spacing:-.02em;margin-bottom:4px;color:var(--ink)}
+  .doctor-meta{font-size:.82rem;font-weight:600;color:var(--accent);margin-bottom:12px}
+  .doctor-bio{font-size:.92rem;color:var(--ink-soft);line-height:1.56;margin-bottom:16px;flex:1}
+  .doctor-tags{display:flex;flex-wrap:wrap;gap:6px;padding-top:14px;border-top:1px solid var(--line);margin-top:auto}
+  .doctor-tag{font-size:.74rem;font-weight:600;color:var(--ink-soft);background:var(--tint);padding:3px 9px;border-radius:6px}
+
+  /* ---------- comfort & happiness experience (why us) ---------- */
+  .comfort-section{background:var(--tint);border-radius:28px;padding:72px 56px}
+  .comfort-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:24px;align-items:stretch}
+  .comfort-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px;display:flex;flex-direction:column;transition:transform .2s var(--ease-spring),box-shadow .2s;overflow:hidden;box-shadow:0 8px 24px -10px rgba(21,36,32,.06)}
+  .comfort-card:hover{transform:translateY(-4px);box-shadow:0 20px 40px -16px rgba(15,118,110,.14);border-color:var(--accent)}
+  .comfort-card picture{display:block;width:100%;height:200px;margin-bottom:18px;border-radius:14px;overflow:hidden}
+  .comfort-card-img{width:100%;height:100%;object-fit:cover;display:block}
+  .comfort-card-badge{display:inline-flex;align-items:center;gap:6px;font-size:.76rem;font-weight:700;color:var(--accent-deep);background:var(--accent-light);padding:4px 10px;border-radius:99px;margin-bottom:12px;width:fit-content}
+  .comfort-card h3{font-family:var(--display);font-weight:700;font-size:1.24rem;margin-bottom:8px;letter-spacing:-.015em}
+  .comfort-card p{color:var(--ink-soft);font-size:.95rem;line-height:1.58;flex:1}
+
+  /* ---------- patient reviews (perfect baseline alignment & high trust UI) ---------- */
+  .reviews-trust-pill{display:inline-flex;align-items:center;gap:10px;background:#fff;border:1.5px solid var(--line);padding:8px 20px;border-radius:99px;box-shadow:0 4px 14px -4px rgba(19,35,30,0.06);margin-bottom:20px;font-size:.88rem;color:var(--ink)}
+  .google-badge{display:inline-flex;align-items:center;gap:6px;font-weight:800;color:#1a73e8}
+  .google-badge svg{width:16px;height:16px}
+  .reviews-trust-pill .stars-svg{color:var(--star);display:inline-flex;gap:2px}
+  .quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;align-items:stretch}
+  .quote{background:#ffffff;border:1px solid var(--line);border-radius:22px;padding:32px 28px;display:flex;flex-direction:column;justify-content:space-between;height:100%;box-shadow:0 12px 28px -10px rgba(19,35,30,0.06);transition:transform .2s var(--ease-spring),border-color .2s,box-shadow .2s}
+  .quote:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 20px 40px -14px rgba(15,118,110,0.16)}
+  .quote-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+  .quote-top .stars-svg{display:inline-flex;gap:2px;color:var(--star)}
+  .quote-top .stars-svg svg{width:16px;height:16px;fill:currentColor}
+  .quote-date{font-size:.76rem;font-weight:600;color:var(--ink-soft);background:var(--tint);padding:3px 10px;border-radius:99px}
+  .quote-body{flex:1;color:var(--ink);font-size:1.02rem;line-height:1.62;margin-bottom:22px;font-style:normal}
+  .quote-author{display:flex;align-items:center;gap:14px;padding-top:18px;border-top:1px solid var(--line)}
+  .quote-avatar-wrap{width:50px;height:50px;border-radius:50%;overflow:hidden;flex:none;display:block;border:2px solid var(--tint);box-shadow:0 4px 10px rgba(0,0,0,0.06)}
+  .quote-avatar-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+  .quote-meta{flex:1;min-width:0}
+  .quote-meta b{display:block;font-size:.98rem;color:var(--ink);font-family:var(--display);font-weight:700;line-height:1.25}
+  .quote-meta span{display:block;font-weight:500;color:var(--ink-soft);font-size:.8rem;margin-top:2px}
+  .verified-tag{display:inline-block;color:var(--accent-deep);background:var(--accent-light);font-size:.72rem;font-weight:700;padding:3px 8px;border-radius:6px;margin-top:6px;white-space:nowrap}
+
+  /* ---------- dedicated 60-second booking engine ---------- */
+  #booking{background:var(--tint);border-radius:28px;padding:76px 56px}
+  .book-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start}
+  .book-card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:34px;box-shadow:0 18px 36px -20px rgba(21,36,32,.08)}
+  .book-step{font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+  .cal-head{display:flex;justify-content:space-between;align-items:center;margin:22px 0 16px}
+  .cal-head b{font-family:var(--display);font-weight:700;font-size:1.08rem}
+  .cal-nav{display:flex;gap:8px}
+  .cal-nav button{width:36px;height:36px;border-radius:50%;border:1.5px solid var(--line);background:#fff;font-size:1rem;cursor:pointer;color:var(--ink);transition:.15s}
+  .cal-nav button:hover{border-color:var(--accent);color:var(--accent)}
+  .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;text-align:center}
+  .cal-grid .dow{font-size:.68rem;font-weight:700;color:var(--ink-soft);padding:4px 0;text-transform:uppercase;letter-spacing:.05em}
+  .day{aspect-ratio:1;border-radius:12px;border:1.5px solid transparent;background:#f0f4f1;font-weight:600;font-size:.9rem;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:.15s;font-family:var(--sans)}
+  .day:hover:not(.off):not(.sel){border-color:var(--accent);background:#e4ede7}
+  .day.off{color:#c0cdc5;background:transparent;cursor:default}
+  .day.sel{background:var(--accent);color:#fff;font-weight:700}
+  .day.today{border-color:var(--accent)}
+  .slots{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;min-height:46px}
+  .slot{border:1.5px solid var(--line);border-radius:99px;padding:9px 15px;font-weight:600;font-size:.85rem;background:#fff;cursor:pointer;transition:.15s;font-family:var(--sans)}
+  .slot:hover{border-color:var(--accent);color:var(--accent)}
+  .slot.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .slot.on:hover{background:var(--accent-deep)}
+  .slot.sel-time{background:var(--dark);border-color:var(--dark)}
+  .slot-hint{color:var(--ink-soft);font-size:.86rem;margin-top:12px;font-weight:500}
+  label{display:block;font-weight:700;font-size:.88rem;margin:18px 0 6px}
+  input,select,textarea{width:100%;padding:13px 16px;border:1.5px solid var(--line);border-radius:12px;font-size:.98rem;font-family:var(--sans);background:#fff;color:var(--ink);transition:border-color .15s}
+  input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
+  .confirm{display:none;background:#e7f3ee;border:1.5px solid #9ed4c4;border-radius:14px;padding:22px;margin-top:14px;animation:pop .32s var(--ease-spring)}
+  @keyframes pop{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
+  .confirm h3{color:var(--accent-deep);font-family:var(--display);font-weight:700;margin-bottom:6px}
+  .confirm .sum{color:var(--ink-soft);font-size:.95rem}
+  .book-guarantees{margin-top:16px;display:flex;flex-direction:column;gap:6px;font-size:.82rem;color:var(--ink-soft)}
+  .book-guarantees div{display:flex;align-items:center;gap:6px}
+  .book-guarantees svg{width:14px;height:14px;fill:var(--accent);flex:none}
+
+  /* ---------- contact ---------- */
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start}
+  .info-line{display:flex;gap:16px;margin-bottom:20px;align-items:flex-start}
+  .info-line .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex:none;margin-top:9px;animation:pulse 2.6s ease-in-out infinite}
+  @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(15,118,110,.3)}50%{box-shadow:0 0 0 6px rgba(15,118,110,0)}}
+  .info-line div{color:var(--ink-soft)}
+  .info-line b{color:var(--ink)}
+
+  footer{border-top:1px solid var(--line);padding:34px 0 58px}
+  .foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.88rem;color:var(--ink-soft)}
+  .foot b{font-family:var(--display);color:var(--ink)}
+
+  /* ---------- AI receptionist ---------- */
+  .ai-fab{position:fixed;right:24px;bottom:24px;z-index:90;display:flex;align-items:center;gap:10px;background:var(--accent);color:#fff;border:none;border-radius:99px;padding:13px 22px;font-family:var(--sans);font-weight:700;font-size:.92rem;cursor:pointer;box-shadow:0 14px 34px -12px rgba(15,118,110,.55);transition:transform .18s var(--ease-spring),background .15s}
+  .ai-fab:hover{background:var(--accent-deep);transform:translateY(-2px)}
+  .ai-fab .dot{width:8px;height:8px;border-radius:50%;background:#7CFFD4;animation:pulse 2.6s ease-in-out infinite}
+  .ai-panel{position:fixed;right:24px;bottom:82px;z-index:91;width:min(400px,calc(100vw - 32px));max-height:min(580px,calc(100vh - 100px));display:none;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:0 32px 64px -24px rgba(21,36,32,.4);overflow:hidden;animation:pop .32s var(--ease-spring)}
+  .ai-panel.open{display:flex}
+  .ai-head{background:var(--dark);color:#fff;padding:18px 20px;display:flex;justify-content:space-between;align-items:center}
+  .ai-head b{font-family:var(--display);font-size:1.04rem;display:flex;align-items:center;gap:8px}
+  .ai-head b::before{content:"";width:8px;height:8px;border-radius:50%;background:#3ecfb6}
+  .ai-head small{display:block;font-weight:400;color:var(--dark-soft);font-size:.75rem;margin-top:2px}
+  .ai-head button{background:none;border:none;color:var(--dark-soft);font-size:1.3rem;cursor:pointer;line-height:1}
+  .ai-head button:hover{color:#fff}
+  .ai-log{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px;background:var(--tint)}
+  .msg{max-width:82%;padding:11px 14px;border-radius:14px;font-size:.9rem;line-height:1.5;white-space:pre-line}
+  .msg.bot{background:var(--card);border:1px solid var(--line);border-bottom-left-radius:4px;align-self:flex-start}
+  .msg.user{background:var(--accent);color:#fff;border-bottom-right-radius:4px;align-self:flex-end}
+  .msg .link{display:inline-block;margin-top:6px;color:var(--accent-deep);font-weight:700;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+  .ai-chips{display:flex;gap:6px;flex-wrap:wrap;padding:10px 16px 0;background:var(--card)}
+  .ai-chips button{border:1.5px solid var(--line);background:#fff;border-radius:99px;padding:7px 12px;font-size:.78rem;font-weight:600;font-family:var(--sans);cursor:pointer;color:var(--ink);transition:.12s}
+  .ai-chips button:hover{border-color:var(--accent);color:var(--accent)}
+  .ai-input{display:flex;gap:8px;padding:12px 16px 14px;background:var(--card)}
+  .ai-input input{flex:1;padding:11px 14px;border:1.5px solid var(--line);border-radius:99px;font-size:.9rem;font-family:var(--sans)}
+  .ai-input input:focus{outline:none;border-color:var(--accent)}
+  .ai-input button{background:var(--accent);color:#fff;border:none;border-radius:99px;width:42px;height:42px;flex:none;font-size:1.05rem;cursor:pointer;transition:background .15s}
+  .ai-input button:hover{background:var(--accent-deep)}
+  .ai-typing{font-size:.78rem;color:var(--ink-soft);align-self:flex-start;padding:2px 6px}
+
+  /* ---------- motion & reveals ---------- */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .65s var(--ease-out),transform .65s var(--ease-out);transition-delay:calc(var(--i,0)*80ms)}
+  .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .reveal{opacity:1;transform:none;transition:none}
+    .info-line .dot{animation:none}
+    .hero-float-pill{animation:none}
+    .btn::after{display:none}
+  }
+
+  /* ---------- responsive ---------- */
+  @media(max-width:980px){
+    .wrap{padding:0 20px}
+    .hero-cover{min-height:auto}
+    .hero-bg-img{object-position:center right}
+    .hero-wrap{padding-top:40px;padding-bottom:40px}
+    .hero-scrim{background:linear-gradient(180deg,rgba(251,252,250,0.96) 0%,rgba(251,252,250,0.92) 65%,rgba(251,252,250,0.3) 100%)}
+    .hero-content{max-width:100%;padding:34px 24px;border-radius:22px}
+    .facts{grid-template-columns:repeat(2,1fr)}
+    .fact{padding:20px 16px!important}
+    .fact:nth-child(1){padding-left:0!important}
+    .fact:nth-child(2){border-left:1px solid var(--line);padding-right:0!important}
+    .fact:nth-child(3){border-top:1px solid var(--line);border-left:none;padding-left:0!important}
+    .fact:nth-child(4){border-top:1px solid var(--line);border-left:1px solid var(--line);padding-right:0!important}
+    .service{grid-template-columns:1fr;gap:12px}
+    .price{flex-direction:row;align-items:baseline;gap:8px}
+    .doctors-grid{grid-template-columns:1fr}
+    .doctor-media{height:340px}
+    .comfort-section{padding:40px 20px;border-radius:20px}
+    .comfort-grid{grid-template-columns:1fr;gap:20px}
+    .quotes{grid-template-columns:1fr}
+    .quote{padding:26px 20px}
+    #booking{padding:54px 0;border-radius:24px}
+    #booking .wrap{padding:0 20px;width:100%}
+    .book-grid{grid-template-columns:1fr;gap:24px;width:100%}
+    .book-card{padding:28px 20px;border-radius:20px;width:100%}
+    .contact-grid{grid-template-columns:1fr}
+    .ai-fab{right:16px;bottom:18px;padding:10px 18px;font-size:.84rem}
+    .ai-panel{right:16px;left:16px;bottom:70px;width:auto;max-width:420px;max-height:calc(100vh - 88px)}
+  }
+  @media(max-width:780px){.nav nav{display:none}}
+  @media(max-width:480px){
+    .wrap{padding:0 14px}
+    .logo{font-size:1.15rem}
+    .lang{padding:6px 12px;font-size:.78rem}
+    .btn.sm{padding:8px 14px;font-size:.84rem}
+    h1{font-size:2.2rem}
+    h2{font-size:1.85rem;line-height:1.12}
+    .sec-head p{font-size:.96rem}
+    .hero-wrap{padding-top:28px;padding-bottom:28px}
+    .hero-content{padding:26px 16px;border-radius:18px}
+    .hero-content .cta{gap:14px}
+    .hero-proof{flex-wrap:wrap;gap:8px}
+    .fact{padding:16px 10px!important}
+    .fact b{font-size:1.52rem}
+    .fact span{font-size:.68rem;letter-spacing:.08em}
+    .comfort-section{padding:30px 14px;border-radius:16px}
+    .quote{padding:22px 16px;border-radius:16px}
+    #booking{padding:40px 0;border-radius:18px}
+    #booking .wrap{padding:0 12px}
+    .book-card{padding:22px 14px;border-radius:16px}
+    .cal-grid{gap:4px}
+    .day{font-size:.84rem;border-radius:8px}
+    .slots{gap:6px}
+    .slot{padding:8px 12px;font-size:.8rem}
+    .btn{white-space:normal}
+    #confirmBtn{padding:13px 18px;font-size:.92rem}
+    .book-guarantees{font-size:.78rem}
+  }
+
+  /* ---------- Ava Concierge Upgrades ---------- */
+  .ai-panel{position:fixed;right:24px;bottom:82px;z-index:91;width:min(420px,calc(100vw - 32px));max-height:min(620px,calc(100vh - 100px));display:none;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:0 32px 64px -24px rgba(21,36,32,.38);overflow:hidden;animation:pop .32s var(--ease-spring)}
+  .ai-panel.open{display:flex}
+  .msg.bot{background:#fff;border:1px solid var(--line);border-bottom-left-radius:4px;align-self:flex-start;max-width:90%;box-shadow:0 2px 8px rgba(0,0,0,0.03)}
+  .ai-actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;padding-top:10px;border-top:1px solid rgba(15,118,110,.1)}
+  .ai-act{background:#fff;border:1.5px solid var(--accent);color:var(--accent-deep);border-radius:99px;padding:6px 13px;font-size:.76rem;font-weight:700;font-family:var(--sans);cursor:pointer;transition:.16s var(--ease-spring);display:inline-flex;align-items:center;box-shadow:0 2px 6px rgba(15,118,110,0.06)}
+  .ai-act:hover{background:var(--accent);color:#fff;transform:translateY(-1px);box-shadow:0 4px 10px rgba(15,118,110,0.18)}
+  .ai-act:active{transform:scale(.97)}
+  .typing-dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--accent);margin:0 1.5px;opacity:.4;animation:tdot 1.2s infinite ease-in-out}
+  .typing-dot:nth-child(2){animation-delay:.2s}
+  .typing-dot:nth-child(3){animation-delay:.4s}
+  @keyframes tdot{0%,100%{opacity:.3;transform:translateY(0)}50%{opacity:1;transform:translateY(-3px)}}
+
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo">Zahnärzte<span> am Maschpark</span></div>
+    <nav>
+      <a href="#services">Leistungen &amp; Honorare</a>
+      <a href="#doctors">Unser Team</a>
+      <a href="#comfort">Die Wohlfühl-Praxis</a>
+      <a href="#reviews">Patientenstimmen</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+    <div style="display:flex;gap:12px;align-items:center">
+      <a href="../" class="lang" onclick="try{localStorage.setItem('lang','en')}catch(e){}">EN</a>
+      <a href="#booking" class="btn sm">Online buchen</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero-section">
+  <div class="hero-cover">
+    <picture class="hero-bg-picture">
+      <source srcset="images/hero-doctor-patient.webp" type="image/webp">
+      <img src="images/hero-doctor-patient.jpg" alt="Zahnärztin berät lächelnde Patientin in moderner Praxis" class="hero-bg-img" width="1376" height="768" fetchpriority="high" decoding="async">
+    </picture>
+    <div class="hero-scrim"></div>
+    
+    <!-- Floating Trust Badges over photo -->
+    <div class="hero-float-pill pill-top reveal" style="--i:2">
+      <div class="float-icon">🌿</div>
+      <div>
+        <b>100% Angstfreie Behandlung</b>
+        <span>Wärmedecken &amp; Noise-Canceling Kopfhörer</span>
+      </div>
+    </div>
+
+    <div class="hero-float-pill pill-bottom reveal" style="--i:3">
+      <div class="float-avatar">
+        <picture>
+          <source srcset="images/doctor-vance.webp" type="image/webp">
+          <img src="images/doctor-vance.jpg" alt="Dr. Vance" width="38" height="38">
+        </picture>
+      </div>
+      <div>
+        <b>Dr. Elena Vance</b>
+        <span>Columbia Univ. · 14 Jahre Leitung</span>
+      </div>
+    </div>
+
+    <div class="wrap hero-wrap">
+      <div class="hero-content reveal">
+        <div class="happy-badge">
+          <span class="smile-icon">✨</span> Einfühlsam &amp; ohne Vorurteile
+        </div>
+        <h1>Endlich Zahnmedizin, die Ihnen ein <em>Lächeln</em> schenkt.</h1>
+        <p class="sub">Keine Vorwürfe, keine Wartezimmer-Hektik und null Behandlungsangst. Online buchen in 60 Sekunden: <b>morgens, abends und samstags</b> direkt am Maschpark in Hannover.</p>
+        
+        <div class="cta">
+          <a href="#booking" class="btn">
+            <span>Wunschtermin wählen</span>
+            <span class="arrow-icon">→</span>
+          </a>
+          <div class="call">
+            oder anrufen: <a href="tel:+495115550142">0511 555 0142</a>
+          </div>
+        </div>
+
+        <div class="hero-proof">
+          <span class="stars-svg" aria-label="5 Sterne">
+            <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </span>
+          <span><b>4,9 bei Google</b> · Von über 310 Familien in Hannover geschätzt</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Full-Bleed High-Trust Proof Band -->
+<div class="facts-bar">
+  <div class="wrap">
+    <div class="facts">
+      <div class="fact">
+        <div class="fact-head"><b>4,9<span class="star-glyph">★</span></b></div>
+        <span>312 Google-Bewertungen</span>
+      </div>
+      <div class="fact">
+        <div class="fact-head"><b>15.000+</b></div>
+        <span>strahlende Lächeln betreut</span>
+      </div>
+      <div class="fact">
+        <div class="fact-head"><b>Same-Day</b></div>
+        <span>Notfall-Slots am selben Tag</span>
+      </div>
+      <div class="fact">
+        <div class="fact-head"><b>0%</b></div>
+        <span>zinsfreie Ratenzahlung</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Services with Direct 1-Click Booking Connection -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="sec-kicker">Transparente Versorgung</div>
+      <h2>Ehrliche Zahnmedizin, <em>ehrliche Preise.</em></h2>
+      <p>Sie sehen das Honorar immer transparent vor der Behandlung. Klicken Sie auf eine Behandlung, um sie direkt im Buchungskalender vorzuwählen.</p>
+    </div>
+
+    <div class="service-list">
+      <div class="service reveal" onclick="quickBook(0)" style="cursor:pointer">
+        <div class="num">01</div>
+        <div>
+          <h3>Prophylaxe &amp; Umfassende Kontrolle</h3>
+          <p>Gründliche Untersuchung, sanfte Ultraschall-Zahnreinigung, strahlungsarmes digitales 3D-Röntgen und Zahnfleisch-Check.</p>
+        </div>
+        <div class="price">89&nbsp;€<small>Neupatienten</small></div>
+        <div class="service-action">
+          <button class="book-trigger">Diesen Termin wählen →</button>
+        </div>
+      </div>
+
+      <div class="service reveal" onclick="quickBook(1)" style="cursor:pointer">
+        <div class="num">02</div>
+        <div>
+          <h3>In-Office Laser-Bleaching</h3>
+          <p>Klinisch schonende Zahnaufhellung in der Praxis: bis zu 8 Nuancen weißere Zähne in einer einzigen 60-Minuten-Sitzung.</p>
+        </div>
+        <div class="price">249&nbsp;€<small>Pauschalpreis</small></div>
+        <div class="service-action">
+          <button class="book-trigger">Diesen Termin wählen →</button>
+        </div>
+      </div>
+
+      <div class="service reveal" onclick="quickBook(2)" style="cursor:pointer">
+        <div class="num">03</div>
+        <div>
+          <h3>Notfall-Behandlung &amp; Schmerzlinderung</h3>
+          <p>Abgebrochener Zahn oder akute Schmerzen: garantierte Same-Day-Terminfenster für sofortige, sanfte Hilfe.</p>
+        </div>
+        <div class="price">ab 79&nbsp;€<small>pro Besuch</small></div>
+        <div class="service-action">
+          <button class="book-trigger">Diesen Termin wählen →</button>
+        </div>
+      </div>
+
+      <div class="service reveal" onclick="quickBook(3)" style="cursor:pointer">
+        <div class="num">04</div>
+        <div>
+          <h3>Invisalign® Unsichtbare Zahnschienen</h3>
+          <p>Diskrete, komfortable Zahnkorrektur inklusive kostenloser digitaler 3D-Simulation Ihres fertigen Lächelns.</p>
+        </div>
+        <div class="price">ab 3.200&nbsp;€<small>Gratis-Beratung</small></div>
+        <div class="service-action">
+          <button class="book-trigger">Diesen Termin wählen →</button>
+        </div>
+      </div>
+
+      <div class="service reveal" onclick="quickBook(4)" style="cursor:pointer">
+        <div class="num">05</div>
+        <div>
+          <h3>Sanfte Kinder- &amp; Jugendzahnheilkunde</h3>
+          <p>Spielerische Erstbesuche mit strikter Keine-Tränen-Philosophie. Inklusive Versiegelung, Putzschule und Karies-Schutz.</p>
+        </div>
+        <div class="price">ab 49&nbsp;€<small>pro Besuch</small></div>
+        <div class="service-action">
+          <button class="book-trigger">Diesen Termin wählen →</button>
+        </div>
+      </div>
+
+      <div class="service reveal" onclick="quickBook(5)" style="cursor:pointer">
+        <div class="num">06</div>
+        <div>
+          <h3>Implantate &amp; Maßgefertigte Kronen</h3>
+          <p>Dauerhafter, natürlicher Zahnersatz mit digitaler 3D-Präzision, millimetergenau an Ihre natürliche Zahnlinie angepasst.</p>
+        </div>
+        <div class="price">ab 890&nbsp;€<small>pro Zahn</small></div>
+        <div class="service-action">
+          <button class="book-trigger">Diesen Termin wählen →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lernen Sie Ihr Ärzteteam kennen -->
+<section id="doctors">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="sec-kicker">Unser Ärzteteam</div>
+      <h2>Zahnärzte, die Ihnen zuhören, <em>bevor sie behandeln.</em></h2>
+      <p>Erfahren, einfühlsam und ohne Vorwürfe. Jede Behandlung beginnt mit einem entspannten Gespräch auf Augenhöhe.</p>
+    </div>
+
+    <div class="doctors-grid">
+      <div class="doctor-card reveal" style="--i:0">
+        <div class="doctor-media">
+          <picture>
+            <source srcset="images/doctor-vance.webp" type="image/webp">
+            <img src="images/doctor-vance.jpg" alt="Dr. med. dent. Elena Vance: Leitende Zahnärztin" width="400" height="320" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="doctor-info">
+          <span class="doctor-badge">Ärztliche Leitung</span>
+          <h3 class="doctor-name">Dr. med. dent. Elena Vance</h3>
+          <div class="doctor-meta">Ästhetische &amp; Rekonstruktive Zahnheilkunde · 14 Jahre Erfahrung</div>
+          <p class="doctor-bio">Spezialisiert auf schonende, angstfreie Zahnmedizin und ästhetische Zahnkorrekturen. Dr. Vance legt höchsten Wert auf eine einfühlsame Betreuung von Patientinnen und Patienten mit Zahnarztangst.</p>
+          <div class="doctor-tags">
+            <span class="doctor-tag">Ästhetische Veneers</span>
+            <span class="doctor-tag">Angstpatienten</span>
+            <span class="doctor-tag">Schonende Prophylaxe</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="doctor-card reveal" style="--i:1">
+        <div class="doctor-media">
+          <picture>
+            <source srcset="images/doctor-davis.webp" type="image/webp">
+            <img src="images/doctor-davis.jpg" alt="Dr. med. dent. Markus Davis: Implantologe" width="400" height="320" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="doctor-info">
+          <span class="doctor-badge">Fachzahnarzt</span>
+          <h3 class="doctor-name">Dr. med. dent. Markus Davis</h3>
+          <div class="doctor-meta">Implantologie &amp; Oralchirurgie · 11 Jahre Erfahrung</div>
+          <p class="doctor-bio">Experte für 3D-navigierte Zahnimplantate und gewebeschonende Sofortversorgungen. Dr. Davis garantiert schnelle, schmerzfreie Hilfe bei Zahnschmerzen und zahnärztlichen Notfällen.</p>
+          <div class="doctor-tags">
+            <span class="doctor-tag">3D-Implantate</span>
+            <span class="doctor-tag">Notfallversorgung</span>
+            <span class="doctor-tag">Knochenaufbau</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="doctor-card reveal" style="--i:2">
+        <div class="doctor-media">
+          <picture>
+            <source srcset="images/doctor-lin.webp" type="image/webp">
+            <img src="images/doctor-lin.jpg" alt="Dr. med. dent. Sarah Lin: Kieferorthopädie &amp; Kinderzahnheilkunde" width="400" height="320" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="doctor-info">
+          <span class="doctor-badge">Kieferorthopädie &amp; Kinder</span>
+          <h3 class="doctor-name">Dr. med. dent. Sarah Lin</h3>
+          <div class="doctor-meta">Kieferorthopädie &amp; Kinderzahnheilkunde · 9 Jahre Erfahrung</div>
+          <p class="doctor-bio">Zertifizierte Invisalign®-Spezialistin mit Herz für die kleinsten Patienten. Schafft spielerische, tränenfreie Erstbesuche für Kinder und unsichtbare Zahnkorrekturen für Erwachsene.</p>
+          <div class="doctor-tags">
+            <span class="doctor-tag">Invisalign® Schienen</span>
+            <span class="doctor-tag">Tränenfreie Kinder-Vorsorge</span>
+            <span class="doctor-tag">Frühbehandlung</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- The Boutique Comfort & Happiness Experience -->
+<section id="comfort">
+  <div class="wrap">
+    <div class="comfort-section reveal">
+      <div class="sec-head center" style="margin-bottom:36px">
+        <div class="sec-kicker">Der Wohlfühl-Unterschied</div>
+        <h2>Gestaltet, damit Sie sich wirklich auf Ihren Besuch freuen.</h2>
+        <p>Wir haben die kalte Krankenhaus-Atmosphäre abgeschafft. So fühlt sich moderne, empathische Zahnmedizin an:</p>
+      </div>
+
+      <div class="comfort-grid">
+        <div class="comfort-card">
+          <picture>
+            <source srcset="images/comfort-amenities.webp" type="image/webp">
+            <img src="images/comfort-amenities.jpg" alt="Patientin entspannt auf Behandlungsstuhl mit Kopfhörern und Kuscheldecke" class="comfort-card-img" width="400" height="200" loading="lazy" decoding="async">
+          </picture>
+          <div class="comfort-card-badge">🎧 Wohlfühl-Service</div>
+          <h3>Boutique-Komfort-Atmosphäre</h3>
+          <p>Flauschige Wärmedecken, Kopfhörer mit aktiver Rauschunterdrückung und Decken-Monitore mit Netflix während der Behandlung.</p>
+        </div>
+
+        <div class="comfort-card">
+          <picture>
+            <source srcset="images/comfort-welcome.webp" type="image/webp">
+            <img src="images/comfort-welcome.jpg" alt="Einfühlsame Zahnärztin begrüßt Patientin herzlich mit Händedruck" class="comfort-card-img" width="400" height="200" loading="lazy" decoding="async">
+          </picture>
+          <div class="comfort-card-badge">🤝 Null Vorwürfe</div>
+          <h3>Die Null-Vorwürfe-Garantie</h3>
+          <p>Seit 5 oder 10 Jahren nicht beim Zahnarzt gewesen? Das Leben passiert. Wir belehren niemanden, sondern freuen uns einfach, Ihnen zu helfen.</p>
+        </div>
+
+        <div class="comfort-card">
+          <picture>
+            <source srcset="images/comfort-family.webp" type="image/webp">
+            <img src="images/comfort-family.jpg" alt="Glückliche Familie verlässt Zahnarztpraxis mit Lächeln" class="comfort-card-img" width="400" height="200" loading="lazy" decoding="async">
+          </picture>
+          <div class="comfort-card-badge">⏰ Familienfreundlich</div>
+          <h3>Abend- &amp; Samstagstermine</h3>
+          <p>Werktags bis 19:00 Uhr und samstags vormittags geöffnet. Nie wieder Urlaubstage opfern oder Kinder aus der Schule nehmen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Verified Patient Stories -->
+<section id="reviews">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="reviews-trust-pill">
+        <span class="google-badge">
+          <svg viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+          Google
+        </span>
+        <span class="stars-svg" aria-label="5 Sterne">
+          <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </span>
+        <span><b>4,9 Bewertung</b> · Über 312 verifizierte Google-Rezensionen</span>
+      </div>
+      <h2>Echte Patienten, echtes Lächeln.</h2>
+      <p>Hier erfahren Sie, was unsere Patientinnen und Patienten über unsere einfühlsame, angstfreie Behandlung sagen:</p>
+    </div>
+    <div class="quotes">
+      <div class="quote reveal">
+        <div>
+          <div class="quote-top">
+            <span class="stars-svg">
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </span>
+            <span class="quote-date">Letzte Woche</span>
+          </div>
+          <div class="quote-body">„Früher hatte ich tagelang Panik vor jedem Zahnarzttermin. Hier wurde alles anders: Null Schmerzen, null Vorwürfe. Ich habe die Praxis zum ersten Mal mit einem Lächeln verlassen.“</div>
+        </div>
+        <div class="quote-author">
+          <picture class="quote-avatar-wrap">
+            <source srcset="images/patient-1.webp" type="image/webp">
+            <img src="images/patient-1.jpg" alt="Katharina M." width="50" height="50" loading="lazy" decoding="async">
+          </picture>
+          <div class="quote-meta">
+            <b>Katharina M.</b>
+            <span>List, Hannover · Verifizierte Patientin</span>
+            <span class="verified-tag">✓ Neupatienten Prophylaxe &amp; Kontrolle</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote reveal" style="--i:1">
+        <div>
+          <div class="quote-top">
+            <span class="stars-svg">
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </span>
+            <span class="quote-date">Vor 2 Wochen</span>
+          </div>
+          <div class="quote-body">„Freitagfrüh beim Frühstück einen Backenzahn abgebrochen, schnell am Handy gebucht und um 10 Uhr saß ich schon auf dem Stuhl. Perfekt versorgt ohne Ziehen.“</div>
+        </div>
+        <div class="quote-author">
+          <picture class="quote-avatar-wrap">
+            <source srcset="images/patient-2.webp" type="image/webp">
+            <img src="images/patient-2.jpg" alt="Jonas B." width="50" height="50" loading="lazy" decoding="async">
+          </picture>
+          <div class="quote-meta">
+            <b>Jonas B.</b>
+            <span>Linden, Hannover · Verifizierter Patient</span>
+            <span class="verified-tag">✓ Notfall-Kronenversorgung</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote reveal" style="--i:2">
+        <div>
+          <div class="quote-top">
+            <span class="stars-svg">
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </span>
+            <span class="quote-date">Vor 1 Monat</span>
+          </div>
+          <div class="quote-body">„Mein 6-Jähriger fragt tatsächlich, wann wir wieder hingehen! Das Team hat ihm eine coole Sonnenbrille gegeben und eine Serie an der Decke angemacht.“</div>
+        </div>
+        <div class="quote-author">
+          <picture class="quote-avatar-wrap">
+            <source srcset="images/patient-3.webp" type="image/webp">
+            <img src="images/patient-3.jpg" alt="Markus S. &amp; Mia" width="50" height="50" loading="lazy" decoding="async">
+          </picture>
+          <div class="quote-meta">
+            <b>Markus S. &amp; Mia</b>
+            <span>Südstadt, Hannover · Familie</span>
+            <span class="verified-tag">✓ Kinder-Vorsorge &amp; Prophylaxe</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- The Dedicated 60-Second Booking Section -->
+<section id="booking">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="sec-kicker">Online-Terminbuchung</div>
+      <h2>Zeit aussuchen. <em>Bestätigung kommt sofort.</em></h2>
+      <p>Wählen Sie Ihre gewünschte Behandlung, einen freien Tag und reservieren Sie in unter 60 Sekunden ohne Telefonschleife.</p>
+    </div>
+    <div class="book-grid">
+      <div class="book-card">
+        <div class="book-step">Schritt 1 von 2</div>
+        <label for="svc">1 · Gewünschte Leistung wählen</label>
+        <select id="svc">
+          <option value="Prophylaxe & Kontrolle - 89 €">Prophylaxe &amp; Umfassende Kontrolle (89 €)</option>
+          <option value="In-Office Bleaching - 249 €">In-Office Laser-Bleaching (249 €)</option>
+          <option value="Notfall / Schmerzen - ab 79 €">Notfall / Akute Schmerzlinderung (ab 79 €)</option>
+          <option value="Invisalign-Beratung - kostenlos">Invisalign® 3D-Simulation (Kostenlos)</option>
+          <option value="Kinderzahnarzt - ab 49 €">Kinder- &amp; Jugendvorsorge (ab 49 €)</option>
+          <option value="Implantate & Kronen - Beratung">Implantate &amp; Kronen Beratung</option>
+        </select>
+        <div class="cal-head">
+          <b id="calTitle">…</b>
+          <div class="cal-nav">
+            <button id="prevM" aria-label="voriger Monat">‹</button>
+            <button id="nextM" aria-label="nächster Monat">›</button>
+          </div>
+        </div>
+        <div class="cal-grid" id="calGrid"></div>
+        <div class="slots" id="timeSlots"></div>
+        <div class="slot-hint" id="slotHint">👉 Klicken Sie oben auf einen geöffneten Tag, um freie Uhrzeiten zu sehen.</div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-step">Schritt 2 von 2</div>
+        <label for="pname">2 · Ihre Kontaktdaten</label>
+        <input id="pname" placeholder="Vor- und Nachname (z. B. Julia Becker)">
+        <input id="pphone" placeholder="Mobilfunknummer für Ihre Bestätigungs-SMS" style="margin-top:10px">
+        <textarea id="pnote" rows="3" placeholder="Besondere Hinweise, Wünsche oder Behandlungsangst? (optional)" style="margin-top:10px"></textarea>
+        <button class="btn" id="confirmBtn" style="width:100%;margin-top:20px">
+          <span>Termin verbindlich anfragen</span>
+          <span class="arrow-icon">→</span>
+        </button>
+        <div class="confirm" id="confirmBox">
+          <h3>Sie sind eingebucht ✓</h3>
+          <div class="sum" id="confirmSum"></div>
+          <div class="book-note">Eine Bestätigungs-SMS ist bereits unterwegs. Bis bald!</div>
+        </div>
+        
+        <div class="book-guarantees">
+          <div>
+            <svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span>Keine Vorauszahlung nötig. Entspannt am Behandlungstag zahlen.</span>
+          </div>
+          <div>
+            <svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span>Jederzeit flexibel mit einer kurzen SMS umbuchen oder absagen</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Location & Contact -->
+<section id="contact">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <div class="sec-kicker">Anfahrt &amp; Kontakt</div>
+      <h2>Am Maschpark, Hannover.</h2>
+      <div style="margin-top:24px">
+        <div class="info-line"><span class="dot"></span><div><b>Willy-Brandt-Allee 12</b><br>30169 Hannover</div></div>
+        <div class="info-line"><span class="dot"></span><div><b>0511 555 0142</b><br>Der Empfang hebt spätestens nach 3 Freizeichen ab</div></div>
+        <div class="info-line"><span class="dot"></span><div><b>Mo–Fr 8:00–19:00 · Sa 9:00–14:00</b><br>Kostenlose Patientenparkplätze direkt im Innenhof</div></div>
+      </div>
+    </div>
+    <div class="book-card reveal" style="--i:1">
+      <b style="font-family:var(--display);font-size:1.15rem">Lieber ein Rückruf?</b>
+      <p style="color:var(--ink-soft);font-size:.94rem;margin-top:8px">Hinterlassen Sie Ihre Mobilnummer. Unser Empfang ruft während der Öffnungszeiten innerhalb von 15 Minuten zurück.</p>
+      <input id="cphone" placeholder="Ihre Mobilnummer" style="margin-top:14px">
+      <button class="btn" style="margin-top:14px" onclick="alert('Demo: Rückrufbitte eingegangen! Unser Empfang meldet sich in Kürze.')">
+        <span>Rückruf anfordern</span>
+        <span class="arrow-icon">→</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot">
+    <div><b>Zahnärzte am Maschpark</b> · © 2026 · Hannover</div>
+    <div>Demo-Website von Ropi Studio (diese Praxis ist fiktiv).</div>
+  </div>
+</footer>
+
+<!-- Interactive Calendar Script -->
+<script>
+let quickBook;
+(function(){
+  const grid=document.getElementById('calGrid'), title=document.getElementById('calTitle'),
+        slots=document.getElementById('timeSlots'), hint=document.getElementById('slotHint'),
+        svcSelect=document.getElementById('svc');
+  const today=new Date(); today.setHours(0,0,0,0);
+  let view=new Date(today.getFullYear(),today.getMonth(),1), picked=null, pickedTime=null;
+  const DOW=['So','Mo','Di','Mi','Do','Fr','Sa'];
+  const seeded=n=>{let x=Math.sin(n)*10000;return x-Math.floor(x)};
+
+  /* 1-Click Service Quick-Book */
+  quickBook = function(idx) {
+    if (svcSelect.options[idx]) {
+      svcSelect.selectedIndex = idx;
+    }
+    const bookEl = document.getElementById('booking');
+    bookEl.scrollIntoView({ behavior: 'smooth' });
+    hint.textContent = `✓ Gewählt: ${svcSelect.options[svcSelect.selectedIndex].text}. Wählen Sie nun einen Tag:`;
+    hint.style.color = '#0f766e';
+  };
+
+  function render(){
+    title.textContent=view.toLocaleDateString('de-DE',{month:'long',year:'numeric'});
+    grid.innerHTML=DOW.map(d=>`<div class="dow">${d}</div>`).join('');
+    const off=new Date(view).getDay(), dim=new Date(view.getFullYear(),view.getMonth()+1,0).getDate();
+    for(let i=0;i<off;i++) grid.insertAdjacentHTML('beforeend','<div></div>');
+    for(let d=1;d<=dim;d++){
+      const date=new Date(view.getFullYear(),view.getMonth(),d);
+      const closed=date.getDay()===0, past=date<today;
+      const cls='day'+(closed||past?' off':'')+(picked&&date.getTime()===picked.getTime()?' sel':'')+(date.getTime()===today.getTime()?' today':'');
+      grid.insertAdjacentHTML('beforeend',`<div class="${cls}" data-d="${d}">${d}</div>`);
+    }
+  }
+  grid.addEventListener('click',e=>{
+    const el=e.target.closest('.day'); if(!el||el.classList.contains('off'))return;
+    picked=new Date(view.getFullYear(),view.getMonth(),+el.dataset.d); pickedTime=null;
+    grid.querySelectorAll('.day').forEach(x=>x.classList.remove('sel')); el.classList.add('sel');
+    renderSlots();
+  });
+  function renderSlots(){
+    if(!picked)return;
+    const seed=picked.getFullYear()*10000+picked.getMonth()*100+picked.getDate();
+    const times=[]; for(let h=9;h<17;h++){if(h===12)continue;for(const m of ['00','30'])times.push(`${h<10?'0'+h:h}:${m}`);}
+    slots.innerHTML=times.map(t=>{
+      const taken=seeded(seed+parseInt(t)*7)<0.35;
+      return `<button class="slot ${taken?'':'on'}" ${taken?'disabled style="opacity:.35;text-decoration:line-through"':''} data-t="${t}">${t} Uhr</button>`;
+    }).join('');
+    hint.textContent=`Freie Uhrzeiten am ${picked.toLocaleDateString('de-DE',{weekday:'long',day:'numeric',month:'short'})}:`;
+    hint.style.color='var(--ink-soft)';
+  }
+  slots.addEventListener('click',e=>{
+    const b=e.target.closest('.slot.on'); if(!b)return;
+    pickedTime=b.dataset.t;
+    slots.querySelectorAll('.slot').forEach(x=>x.classList.remove('sel-time'));
+    b.classList.add('sel-time');
+    hint.textContent=`✓ Gewählte Zeit: ${pickedTime} Uhr am ${picked.toLocaleDateString('de-DE',{weekday:'short',day:'numeric',month:'short'})}`;
+    hint.style.color='#0f766e';
+  });
+  document.getElementById('prevM').onclick=()=>{view=new Date(view.getFullYear(),view.getMonth()-1,1);render()};
+  document.getElementById('nextM').onclick=()=>{view=new Date(view.getFullYear(),view.getMonth()+1,1);render()};
+  document.getElementById('confirmBtn').onclick=()=>{
+    const name=document.getElementById('pname').value.trim(), phone=document.getElementById('pphone').value.trim();
+    if(!picked||!pickedTime){hint.textContent='⚠️ Bitte wählen Sie zuerst einen Tag und eine Uhrzeit.';hint.style.color='#b3543e';return}
+    if(!name||!phone){alert('Bitte geben Sie Ihren Namen und Ihre Mobilfunknummer ein.');return}
+    document.getElementById('confirmSum').textContent=
+      `${svcSelect.value} · ${picked.toLocaleDateString('de-DE',{weekday:'long',day:'numeric',month:'long'})} um ${pickedTime} Uhr · ${name}`;
+    document.getElementById('confirmBox').style.display='block';
+    document.getElementById('confirmBox').scrollIntoView({behavior:'smooth',block:'center'});
+  };
+  render();
+})();
+
+/* Scroll Reveal */
+(function(){
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in')); return;
+  }
+  const io=new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}
+  }),{threshold:.14});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+})();
+</script>
+
+<!-- KI Empfang Widget -->
+<button class="ai-fab" id="aiFab"><span class="dot"></span>Frag Ava</button>
+<div class="ai-panel" id="aiPanel" role="dialog" aria-label="KI-Empfang Chat">
+  <div class="ai-head">
+    <div><b>Ava</b><small>KI-Empfang · antwortet sekundenschnell, 24/7</small></div>
+    <button id="aiClose" aria-label="Chat schließen">×</button>
+  </div>
+  <div class="ai-log" id="aiLog"></div>
+  <div class="ai-chips" id="aiChips"></div>
+  <div class="ai-input">
+    <input id="aiText" placeholder="Frage stellen…" aria-label="Ihre Frage eingeben">
+    <button id="aiSend" aria-label="Senden">➤</button>
+  </div>
+</div>
+
+<script>
+/* ==========================================================================
+   Ava Concierge: High-IQ Semantic Dental Intelligence Engine (German)
+   ========================================================================== */
+(function(){
+  const fab = document.getElementById('aiFab'),
+        panel = document.getElementById('aiPanel'),
+        log = document.getElementById('aiLog'),
+        chips = document.getElementById('aiChips'),
+        input = document.getElementById('aiText');
+
+  window.avaAction = function(type, val) {
+    if (type === 'book') {
+      panel.classList.remove('open');
+      const bSec = document.getElementById('booking');
+      if (bSec) bSec.scrollIntoView({ behavior: 'smooth' });
+      if (val) {
+        const sel = document.getElementById('serviceSelect');
+        if (sel) {
+          for (let i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value.toLowerCase().includes(val.toLowerCase()) ||
+                sel.options[i].text.toLowerCase().includes(val.toLowerCase())) {
+              sel.selectedIndex = i;
+              sel.dispatchEvent(new Event('change'));
+              break;
+            }
+          }
+        }
+      }
+    } else if (type === 'scroll') {
+      panel.classList.remove('open');
+      const el = document.getElementById(val);
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    } else if (type === 'ask') {
+      send(val);
+    } else if (type === 'call') {
+      window.location.href = 'tel:05115550142';
+    }
+  };
+
+  const INTENTS = [
+    {
+      id: 'anxiety',
+      priority: 95,
+      tokens: [['angst'], ['panik'], ['angstpatient'], ['phobie'], ['fürchte'], ['zahnarztangst'], ['schlimm'], ['unangenehm']],
+      reply: 'Sie sind bei uns vollkommen sicher und müssen sich für nichts rechtfertigen. Über 60% unserer Neupatienten kommen mit Zahnarztangst zu uns.\n\nDr. med. dent. Elena Vance und unser Praxisteam nehmen sich viel Zeit. Sie behalten während der gesamten Behandlung die volle Kontrolle. Wir bieten Bose Noise-Cancelling-Kopfhörer, Deckenmonitore mit Streaming (Netflix, Mediathek), warme Kuscheldecken und eine schmerzfreie Oberflächenbetäubung. Ein einfaches Handzeichen genügt, und wir pausieren sofort.',
+      actions: [
+        { label: 'Angstfreien Termin buchen', type: 'book', val: 'Prophylaxe' },
+        { label: 'Dr. Vance kennenlernen', type: 'scroll', val: 'doctors' },
+        { label: 'Lachgas & Sedierung fragen', type: 'ask', val: 'Bieten Sie Lachgas oder Sedierung an?' }
+      ],
+      chips: ['Bieten Sie Lachgas an?', 'Tut die Behandlung weh?', 'Wie lange dauert ein Termin?']
+    },
+    {
+      id: 'long_time_no_visit',
+      priority: 92,
+      tokens: [['lange nicht'], ['jahren nicht'], ['schäme'], ['scham'], ['peinlich'], ['schlechte zähne'], ['vorwürfe']],
+      reply: 'Bitte machen Sie sich keine Sorgen oder Vorwürfe. Ob es 2 Jahre oder 15 Jahre her ist: In unserer Praxis gilt eine strikte Null-Vorwürfe-Garantie.\n\nDr. Vance und Dr. Davis begleiten jede Woche Patientinnen und Patienten in genau Ihrer Situation. Wir beginnen mit einem schonenden 3D-Röntgen, hören Ihnen in Ruhe zu und planen nur das, was Sie sich wünschen: Schritt für Schritt und ohne Druck.',
+      actions: [
+        { label: 'Neupatienten-Checkup buchen (89 €)', type: 'book', val: 'Prophylaxe' },
+        { label: 'Patienten-Erfahrungen lesen', type: 'scroll', val: 'reviews' }
+      ],
+      chips: ['Ablauf Erstbesuch', 'Kosten & Preise', 'Öffnungszeiten']
+    },
+    {
+      id: 'does_it_hurt',
+      priority: 90,
+      tokens: [['tut das weh'], ['tut es weh'], ['schmerzen'], ['spritze'], ['spritzen'], ['nadel'], ['weh tun']],
+      reply: 'Wir praktizieren moderne, schmerzfreie Zahnmedizin. Vor jeder Betäubung tragen wir ein angenehm schmeckendes Betäubungsgel auf das Zahnfleisch auf, sodass Sie den Einstich der feinen Kanüle meist gar nicht wahrnehmen.\n\nErst wenn der Bereich zu 100% taub ist, beginnen wir mit der Behandlung. Sollten Sie jemals ein Ziehen spüren, stoppen wir sofort und betäuben sanft nach.',
+      actions: [
+        { label: 'Sanften Kontrolltermin buchen', type: 'book', val: 'Prophylaxe' },
+        { label: 'Lachgas anfragen', type: 'ask', val: 'Bieten Sie Lachgas oder Sedierung an?' }
+      ],
+      chips: ['Bieten Sie Lachgas an?', 'Preise ansehen', 'Dr. Vance kennenlernen']
+    },
+    {
+      id: 'sedation',
+      priority: 88,
+      tokens: [['lachgas'], ['sedierung'], ['narkose'], ['dämmerschlaf'], ['schlafen'], ['beruhigung']],
+      reply: 'Ja, wir bieten sanfte Entspannungsmethoden. Dazu zählt die bewährte Lachgas-Sedierung sowie leichte orale Sedativa für besonders ängstliche Patienten oder längere Behandlungen.\n\nUnter Lachgas bleiben Sie voll ansprechbar, aber alle inneren Blockaden und Verkrampfungen lösen sich in Sekunden auf. Die Wirkung verfliegt innerhalb von 5 Minuten nach der Behandlung, sodass Sie die Praxis direkt wieder verkehrstüchtig verlassen können.',
+      actions: [
+        { label: 'Lachgas bei Buchung anfragen', type: 'book', val: 'Prophylaxe' },
+        { label: 'Praxis anrufen (0511 555 0142)', type: 'call' }
+      ],
+      chips: ['Preise & Leistungen', 'Öffnungszeiten', 'Termin buchen']
+    },
+    {
+      id: 'doctor_vance',
+      priority: 86,
+      tokens: [['vance'], ['dr vance'], ['dr. vance'], ['elena vance'], ['ärztliche leitung'], ['zahnärztin']],
+      reply: 'Dr. med. dent. Elena Vance ist unsere Ärztliche Leiterin mit 14 Jahren klinischer Erfahrung. Sie ist spezialisiert auf einfühlsame Prophylaxe, vollkeramische Veneers und sanfte Zahnheilkunde für Angstpatienten.\n\nPatienten schätzen besonders ihre ruhige Art und dass sie zuerst zuhört, bevor eine Behandlung besprochen wird.',
+      actions: [
+        { label: 'Termin bei Dr. Vance buchen', type: 'book', val: 'Prophylaxe' },
+        { label: 'Ärzteteam ansehen', type: 'scroll', val: 'doctors' }
+      ],
+      chips: ['Dr. Markus Davis', 'Dr. Sarah Lin', 'Termin buchen']
+    },
+    {
+      id: 'doctor_davis',
+      priority: 86,
+      tokens: [['davis'], ['dr davis'], ['dr. davis'], ['markus davis'], ['implantologe'], ['chirurg']],
+      reply: 'Dr. med. dent. Markus Davis ist unser Fachzahnarzt für Implantologie und Oralchirurgie mit 11 Jahren Erfahrung. Er ist Harvard-Alumnus und Experte für navigierte 3D-Zahnimplantate, Knochenaufbau und Sofortversorgungen.\n\nDank moderner 3D-Planung verlaufen Eingriffe minimalinvasiv mit minimalen Ausfallzeiten.',
+      actions: [
+        { label: 'Implantat-Beratung buchen', type: 'book', val: 'Implantate' },
+        { label: 'Ärzteteam ansehen', type: 'scroll', val: 'doctors' }
+      ],
+      chips: ['Kosten für Implantate', 'Notfall-Sprechstunde', 'Dr. Elena Vance']
+    },
+    {
+      id: 'doctor_lin',
+      priority: 86,
+      tokens: [['lin'], ['dr lin'], ['dr. lin'], ['sarah lin'], ['kieferorthopädin'], ['kinderzahnärztin']],
+      reply: 'Dr. med. dent. Sarah Lin absolvierte die renommierte UCLA School of Dentistry und ist zertifizierte Diamond Invisalign® Behandlerin mit 9 Jahren Erfahrung. Sie leitet unsere Kinderzahnheilkunde sowie unsichtbare Aligner-Behandlungen.\n\nFür Kinder gilt bei ihr eine strikte tränenfreie Betreuung, während Erwachsene von digitalen 3D-Scans ganz ohne klebrige Abdrucklöffel profitieren.',
+      actions: [
+        { label: 'Kostenlose Invisalign-Beratung', type: 'book', val: 'Invisalign' },
+        { label: 'Kindertermin buchen (ab 49 €)', type: 'book', val: 'Kinder' }
+      ],
+      chips: ['Invisalign Kosten', 'Kindertermine', 'Öffnungszeiten']
+    },
+    {
+      id: 'insurance_germany',
+      priority: 85,
+      tokens: [['krankenkasse'], ['kasse'], ['gesetzlich'], ['privat'], ['gkv'], ['pkv'], ['versicherung'], ['zahnzusatzversicherung'], ['zusatzversicherung']],
+      reply: 'Wir behandeln gesetzlich und privat versicherte Patienten gleichermaßen. Gesetzliche Basisleistungen rechnen wir direkt über Ihre elektronische Gesundheitskarte ab.\n\nFür Wunschleistungen (wie professionelle Zahnreinigung, Bleaching oder Zahnersatz) erhalten Sie immer vorab eine transparente Kostenaufstellung. Eine private Zahnzusatzversicherung erstattet je nach Tarif bis zu 100% dieser Kosten.',
+      actions: [
+        { label: 'Termin buchen', type: 'book', val: 'Prophylaxe' },
+        { label: 'Praxis anrufen (0511 555 0142)', type: 'call' }
+      ],
+      chips: ['Kosten für Zahnreinigung', 'Zinsfreie Ratenzahlung', 'Preise ansehen']
+    },
+    {
+      id: 'bleaching',
+      priority: 80,
+      tokens: [['bleaching'], ['zahnaufhellung'], ['weiße zähne'], ['aufhellen'], ['verfärbung'], ['kaffee'], ['tee']],
+      reply: 'Unser In-Office Laser-Bleaching kostet 249 € pauschal. In einer einzigen 60-Minuten-Sitzung werden hartnäckige Kaffee-, Tee- und Genussmittelverfärbungen um bis zu 8 Nuancen aufgehellt.\n\nWir verwenden eine zahnschmelzschonende Formel mit Vorab-Desensibilisierung, sodass auch empfindliche Zähne schonend behandelt werden.',
+      actions: [
+        { label: 'In-Office Bleaching buchen (249 €)', type: 'book', val: 'Bleaching' },
+        { label: 'Alle Leistungen ansehen', type: 'scroll', val: 'services' }
+      ],
+      chips: ['Tut Bleaching weh?', 'Professionelle Zahnreinigung', 'Öffnungszeiten']
+    },
+    {
+      id: 'invisalign',
+      priority: 80,
+      tokens: [['invisalign'], ['aligner'], ['zahnschiene'], ['zahnspange'], ['schiefe zähne'], ['zahnlücke']],
+      reply: 'Dr. Sarah Lin ist zertifizierte Diamond Invisalign® Spezialistin. Die Aligner-Behandlung startet ab 2.800 € (oder flexibel ab 99 €/Monat über unsere zinsfreie Ratenzahlung).\n\nBeim ersten Termin fertigen wir einen digitalen 3D-Scan an (vollkommen kostenlos und ohne Abdruckmasse). Sie sehen das künftige Endergebnis direkt als 3D-Simulation am Bildschirm.',
+      actions: [
+        { label: 'Kostenlosen 3D-Scan buchen', type: 'book', val: 'Invisalign' },
+        { label: 'Dr. Sarah Lin kennenlernen', type: 'scroll', val: 'doctors' }
+      ],
+      chips: ['Zinsfreie Ratenzahlung', 'Kindertermine', 'Preise ansehen']
+    },
+    {
+      id: 'implants',
+      priority: 80,
+      tokens: [['implantat'], ['implantate'], ['fehlender zahn'], ['zahnlücke'], ['krone'], ['kronen'], ['brücke']],
+      reply: 'Feste Zahnimplantate und vollkeramische Kronen setzt Fachzahnarzt Dr. Markus Davis mit navigierter 3D-Computertechnik. Sie sitzen felsenfest und fühlen sich wie echte Zähne an.\n\nImplantate starten ab 1.299 € pro Zahn. Die Erstberatung mit digitaler 3D-Diagnostik ist für Sie unverbindlich.',
+      actions: [
+        { label: 'Implantat-Beratung buchen', type: 'book', val: 'Implantate' },
+        { label: 'Dr. Markus Davis kennenlernen', type: 'scroll', val: 'doctors' }
+      ],
+      chips: ['Tun Implantate weh?', 'Ratenzahlung', 'Öffnungszeiten']
+    },
+    {
+      id: 'emergency',
+      priority: 95,
+      tokens: [['notfall'], ['abgebrochen'], ['starke schmerzen'], ['zahnschmerzen'], ['schwellung'], ['blutung'], ['pochen'], ['akut']],
+      reply: 'Bei akuten Zahnschmerzen, Schwellungen oder einem abgebrochenen Zahn warten Sie bitte nicht. Wir halten an jedem Werktag feste Same-Day-Notfallfenster bereit.\n\nNotfallbehandlungen starten ab 79 €. Dr. Davis lokalisiert die Ursache sofort und sorgt für schmerzfreie Linderung. Rufen Sie direkt unter 0511 555 0142 an oder buchen Sie online das nächste Notfallfenster.',
+      actions: [
+        { label: 'Notfalltermin online buchen', type: 'book', val: 'Notfall' },
+        { label: 'Praxis anrufen (0511 555 0142)', type: 'call' }
+      ],
+      chips: ['Adresse & Parken', 'Krankenkasse', 'Öffnungszeiten']
+    },
+    {
+      id: 'kids',
+      priority: 80,
+      tokens: [['kind'], ['kinder'], ['jugend'], ['milchzähne'], ['tochter'], ['sohn'], ['kinderzahnarzt']],
+      reply: 'Kinder- und Jugendtermine starten ab 49 €. Dr. Sarah Lin verfolgt eine strikte tränenfreie Betreuung.\n\nDie Kleinen erhalten eine Sonnenbrille, suchen sich einen Deckenfilm aus, fahren mit dem Behandlungsstuhl Karussell und suchen sich am Ende eine Belohnung aus der Schatzkiste aus.',
+      actions: [
+        { label: 'Kindertermin buchen (ab 49 €)', type: 'book', val: 'Kinder' },
+        { label: 'Dr. Sarah Lin ansehen', type: 'scroll', val: 'doctors' }
+      ],
+      chips: ['Prophylaxe für Erwachsene', 'Invisalign für Jugendliche', 'Öffnungszeiten']
+    },
+    {
+      id: 'comfort_amenities',
+      priority: 78,
+      tokens: [['netflix'], ['kopfhörer'], ['musik'], ['decke'], ['wohlfühlen'], ['angenehm'], ['ausstattung'], ['wartezimmer']],
+      reply: 'Unsere Praxis am Maschpark ist bewusst wie eine Wohlfühl-Lounge gestaltet. Jeder Behandlungsraum bietet:\n\n• Bose Noise-Cancelling-Kopfhörer mit Musik oder Podcasts\n• Deckenmonitore mit Netflix, Mediathek oder Naturfilmen\n• Weiche, gewärmte Kuscheldecken und Nackenkissen\n• Warme Lavendeltücher nach der Behandlung\n• Keine Wartezimmer-Staus: Termine beginnen pünktlich.',
+      actions: [
+        { label: 'Termin buchen', type: 'book', val: 'Prophylaxe' },
+        { label: 'Wohlfühl-Vorteile ansehen', type: 'scroll', val: 'comfort' }
+      ],
+      chips: ['Wer sind die Ärzte?', 'Preise ansehen', 'Wo liegt die Praxis?']
+    },
+    {
+      id: 'duration',
+      priority: 75,
+      tokens: [['wie lange'], ['dauer'], ['minuten'], ['wie viel zeit'], ['zeitaufwand']],
+      reply: 'Typische Behandlungsdauern im Überblick:\n\n• Neupatienten Prophylaxe & Checkup: 60 Minuten\n• In-Office Laser Bleaching: 60 Minuten\n• Kinder-Erstkontrolle: 35 Minuten\n• Akute Schmerzlinderung: 45 Minuten\n• Kostenlose Invisalign- oder Implantatberatung: 30 Minuten\n\nWir planen großzügige Zeitfenster, damit Sie sich nie gehetzt fühlen.',
+      actions: [
+        { label: 'Wunschtermin wählen', type: 'book' }
+      ],
+      chips: ['Öffnungszeiten', 'Preise & Kosten', 'Wo liegt die Praxis?']
+    },
+    {
+      id: 'location',
+      priority: 85,
+      tokens: [['wo'], ['adresse'], ['lage'], ['anfahrt'], ['parken'], ['parkplatz'], ['maschpark'], ['hannover']],
+      reply: 'Sie finden uns in der Willy-Brandt-Allee 12, 30169 Hannover, direkt am Maschpark.\n\nWir bieten kostenlose, reservierte Patientenparkplätze direkt im Innenhof mit barrierefreiem Aufzug in den 2. Stock.',
+      actions: [
+        { label: 'Online in 60s buchen', type: 'book' },
+        { label: 'Kontakt & Anfahrt', type: 'scroll', val: 'contact' }
+      ],
+      chips: ['Öffnungszeiten', 'Preise ansehen', 'Krankenkasse']
+    },
+    {
+      id: 'hours',
+      priority: 85,
+      tokens: [['öffnungszeiten'], ['geöffnet'], ['offen'], ['wann'], ['samstag'], ['samstags'], ['wochenende'], ['abend']],
+      reply: 'Wir haben Montag bis Freitag von 8:00 bis 19:00 Uhr und samstags von 9:00 bis 14:00 Uhr geöffnet. Sonntags ist die Praxis geschlossen.\n\nBesonders Früh-, Abend- und Samstagstermine sind sehr gefragt. Wir empfehlen, diese 2 bis 3 Tage im Voraus online zu reservieren.',
+      actions: [
+        { label: 'Freie Termine prüfen', type: 'book' }
+      ],
+      chips: ['Adresse & Parken', 'Preise ansehen', 'Termin buchen']
+    },
+    {
+      id: 'pricing_general',
+      priority: 75,
+      tokens: [['preis'], ['preise'], ['kosten'], ['gebühren'], ['teuer'], ['angebot']],
+      reply: 'Wir stehen für absolute Preistransparenz. Die wichtigsten Orientierungswerte:\n\n• Neupatienten Prophylaxe & Umfassende Kontrolle: 89 €\n• In-Office Laser-Bleaching: 249 €\n• Akute Notfall-Behandlung: ab 79 €\n• Kinder- & Jugendvorsorge: ab 49 €\n• 3D-navigierte Implantate: ab 1.299 €\n• Invisalign Aligner: ab 2.800 €\n\nSie erhalten vor jedem Behandlungsschritt eine verlässliche Aufstellung ohne versteckte Posten.',
+      actions: [
+        { label: 'Preiskatalog ansehen', type: 'scroll', val: 'services' },
+        { label: 'Termin buchen', type: 'book' }
+      ],
+      chips: ['Krankenkasse & Abrechnung', 'Zinsfreie Ratenzahlung', 'Prophylaxe buchen']
+    },
+    {
+      id: 'financing',
+      priority: 78,
+      tokens: [['ratenzahlung'], ['raten'], ['monatlich'], ['finanzierung'], ['teilzahlung']],
+      reply: 'Ja, wir bieten für größere Behandlungen (ab 500 €) eine zinsfreie Ratenzahlung mit bis zu 12 Monatsraten an.\n\nDie Vereinbarung erfolgt unbürokratisch und diskret direkt über unser Abrechnungssystem, sodass Sie Ihre Wunschbehandlung entspannt aufteilen können.',
+      actions: [
+        { label: 'Beratungstermin buchen', type: 'book' },
+        { label: 'Praxis anrufen (0511 555 0142)', type: 'call' }
+      ],
+      chips: ['Invisalign Kosten', 'Implantate', 'Preise ansehen']
+    },
+    {
+      id: 'cancel_reschedule',
+      priority: 85,
+      tokens: [['verschieben'], ['absagen'], ['stornieren'], ['termin ändern'], ['anderen termin']],
+      reply: 'Müssen Sie einen Termin verschieben? Das geht ganz einfach: Antworten Sie direkt auf Ihre SMS-Bestätigung oder rufen Sie kurz unter 0511 555 0142 an.\n\nBis zu 24 Stunden vor dem Termin ist das kostenfrei und unkompliziert möglich.',
+      actions: [
+        { label: 'Praxis anrufen', type: 'call' },
+        { label: 'Neuen Termin wählen', type: 'book' }
+      ],
+      chips: ['Öffnungszeiten', 'Wo liegt die Praxis?', 'Preise ansehen']
+    },
+    {
+      id: 'booking_general',
+      priority: 80,
+      tokens: [['buchen'], ['termin'], ['reservieren'], ['kalender'], ['freier termin']],
+      reply: 'Sie können Ihren Termin in unter 60 Sekunden direkt hier buchen: Wählen Sie die gewünschte Behandlung, einen passenden Tag und eine Uhrzeit. Die Bestätigung erfolgt sofort per SMS.',
+      actions: [
+        { label: 'Buchungskalender öffnen', type: 'book' }
+      ],
+      chips: ['Neupatienten-Vorsorge (89 €)', 'Öffnungszeiten', 'Krankenkasse']
+    },
+    {
+      id: 'who_are_you',
+      priority: 70,
+      tokens: [['wer bist du'], ['bist du echt'], ['bist du eine ki'], ['roboter'], ['bot']],
+      reply: 'Ich bin Ava, der digitale Concierge der Zahnärzte am Maschpark. Ich beantworte Praxisfragen rund um die Uhr und helfe Ihnen bei der Terminreservierung.\n\nDie zahnmedizinische Diagnose und persönliche Beratung führen Dr. Vance, Dr. Davis und Dr. Lin persönlich bei Ihrem Besuch durch.',
+      actions: [
+        { label: 'Termin buchen', type: 'book' },
+        { label: 'Ärzteteam kennenlernen', type: 'scroll', val: 'doctors' }
+      ],
+      chips: ['Preise & Kosten', 'Wo liegt die Praxis?', 'Krankenkasse']
+    },
+    {
+      id: 'greeting',
+      priority: 60,
+      tokens: [['hallo'], ['guten tag'], ['hi'], ['moin'], ['servus'], ['guten morgen'], ['guten abend']],
+      reply: 'Guten Tag! Herzlich willkommen bei den Zahnärzten am Maschpark. Wie kann ich Ihnen weiterhelfen? Fragen Sie mich gern nach unserer angstfreien Behandlung, unseren Ärzten, Preisen oder freien Terminen.',
+      actions: [
+        { label: 'Prophylaxe buchen (89 €)', type: 'book', val: 'Prophylaxe' },
+        { label: 'Frage zur Krankenkasse', type: 'ask', val: 'Wie rechnen Sie mit der Krankenkasse ab?' },
+        { label: 'Ärzteteam kennenlernen', type: 'scroll', val: 'doctors' }
+      ],
+      chips: ['Ich habe Zahnarztangst', 'Preise ansehen', 'Krankenkasse', 'Öffnungszeiten']
+    },
+    {
+      id: 'thanks',
+      priority: 60,
+      tokens: [['danke'], ['vielen dank'], ['super'], ['klasse'], ['toll'], ['perfekt']],
+      reply: 'Sehr gerne! Wenn Sie weitere Fragen haben, bin ich jederzeit für Sie da. Unser Buchungskalender steht Ihnen rund um die Uhr zur Verfügung.',
+      actions: [
+        { label: 'Termin auswählen', type: 'book' }
+      ],
+      chips: ['Adresse & Parken', 'Öffnungszeiten', 'Ärzteteam']
+    }
+  ];
+
+  const DEFAULT_FALLBACK = {
+    reply: 'Um Ihnen die exakt passende medizinische Auskunft zu geben, hilft Ihnen unser Praxisteam gern persönlich unter 0511 555 0142 weiter. Sie können auch direkt ein unverbindliches Beratungsgespräch bei Dr. Vance buchen.\n\nMöchten Sie verfügbare Termine einsehen oder unsere Behandlungsübersicht erkunden?',
+    actions: [
+      { label: 'Freie Termine ansehen', type: 'book' },
+      { label: 'Preiskatalog öffnen', type: 'scroll', val: 'services' },
+      { label: 'Praxis anrufen', type: 'call' }
+    ],
+    chips: ['Preise ansehen', 'Krankenkasse', 'Ich habe Zahnarztangst', 'Öffnungszeiten']
+  };
+
+  const DEFAULT_CHIPS = ['Ich habe Zahnarztangst', 'Neupatienten-Vorsorge (89 €)', 'Krankenkasse', 'Öffnungszeiten', 'Laser-Bleaching', 'Notfall-Sprechstunde'];
+
+  function matchIntent(raw) {
+    const q = raw.toLowerCase().trim();
+    let best = null, maxScore = 0;
+
+    for (const item of INTENTS) {
+      let score = 0;
+      for (const group of item.tokens) {
+        let allMatched = true;
+        for (const token of group) {
+          if (!q.includes(token)) {
+            allMatched = false;
+            break;
+          }
+        }
+        if (allMatched) {
+          score += 15 + group.length * 10;
+        }
+      }
+      if (score > 0) {
+        score += (item.priority || 50) * 0.2;
+        if (score > maxScore) {
+          maxScore = score;
+          best = item;
+        }
+      }
+    }
+    return best || DEFAULT_FALLBACK;
+  }
+
+  function addMsg(text, who, actions) {
+    const m = document.createElement('div');
+    m.className = 'msg ' + who;
+    let formatted = text.replace(/\n/g, '<br>');
+    if (actions && actions.length) {
+      formatted += '<div class="ai-actions">' +
+        actions.map(a => `<button class="ai-act" onclick="window.avaAction('${a.type}', '${a.val || ''}')">${a.label}</button>`).join('') +
+        '</div>';
+    }
+    m.innerHTML = formatted;
+    log.appendChild(m);
+    log.scrollTop = log.scrollHeight;
+  }
+
+  function setChips(list) {
+    chips.innerHTML = (list || DEFAULT_CHIPS).map(c => `<button>${c}</button>`).join('');
+  }
+
+  function send(text) {
+    if (!text.trim()) return;
+    addMsg(text.replace(/</g, '&lt;'), 'user');
+    const ty = document.createElement('div');
+    ty.className = 'ai-typing';
+    ty.innerHTML = '<span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span> Ava tippt…';
+    log.appendChild(ty);
+    log.scrollTop = log.scrollHeight;
+
+    setTimeout(() => {
+      ty.remove();
+      const res = matchIntent(text);
+      addMsg(res.reply, 'bot', res.actions);
+      if (res.chips) setChips(res.chips);
+    }, 450);
+  }
+
+  setChips(DEFAULT_CHIPS);
+  chips.addEventListener('click', e => {
+    if (e.target.tagName === 'BUTTON') send(e.target.textContent);
+  });
+  document.getElementById('aiSend').onclick = () => {
+    send(input.value);
+    input.value = '';
+  };
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      send(input.value);
+      input.value = '';
+    }
+  });
+  document.getElementById('aiClose').onclick = () => panel.classList.remove('open');
+  fab.onclick = () => {
+    panel.classList.toggle('open');
+    if (panel.classList.contains('open') && !log.children.length) {
+      addMsg('Guten Tag! 👋 Ich bin Ava, Ihr digitaler Praxis-Concierge. Wie kann ich Ihnen heute behilflich sein?', 'bot', [
+        { label: 'Termin online buchen', type: 'book' },
+        { label: 'Neupatienten-Checkup (89 €)', type: 'book', val: 'Prophylaxe' },
+        { label: 'Ärzteteam kennenlernen', type: 'scroll', val: 'doctors' }
+      ]);
+      input.focus();
+    }
+  };
+})();</script>
+</body>
+</html>
